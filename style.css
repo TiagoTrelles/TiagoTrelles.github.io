@@ -1,11 +1,40 @@
-   body {
-            background-color: rgb(240, 240, 245);
-        }
+body {
+    padding: 2%;
+    background-color: rgb(240, 240, 245);
+}
 
-    h1 {
-        text-align: center;
-    }
+.apresentacao {
+    text-align: center;
+}
 
-    h2 {
-        text-decoration: underline;
-    }
+h2 {
+    text-decoration: underline;
+}
+.descricao {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: larger;
+}
+#minha-foto {
+    float: left;
+    height: 280px;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+.image-container {
+    height: 300px;
+    position: relative;
+}
+
+ul li:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+   
+   
+   
+div {
+    border: 2px solid black;
+}
